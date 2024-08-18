@@ -2,9 +2,9 @@ name: 🪂 Fly
 
 on:
   # github.com/serverless-dns/blocklists/blob/6021f80f/.github/workflows/createUploadBlocklistFilter.yml#L4-L6
-  schedule:
+  #schedule:
     # at 7:53 on 2nd, 9th, 17th, 25th of every month
-    - cron: '53 7 2,9,17,25 * *'
+    #- cron: '53 7 2,9,17,25 * *'
   push:
     branches:
       - "main"
